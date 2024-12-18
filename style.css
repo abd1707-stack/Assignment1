@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parkinsans:wght@300..800&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.MainContainer{
+   
+   
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    padding: 5px 80px 5px 80px;
+}
+.nav .logo img{
+    width: 150px;
+} 
+.nav ul{
+display: flex;
+gap: 30px;
+}
+.nav ul li{
+color: white; 
+list-style: none;
+display: flex;
+align-items: center;
+}
+
+.navbtn1{
+    display: flex;
+    color: white;
+    background: #000;
+    padding: 13px 15px ;
+    border: solid white 1px;
+    border-radius: 30px;
+}
+.navbtn2{
+    color: white;
+    background: #ED1C24;
+    padding: 8px 15px ;
+    border: solid white 1px;
+    border-radius: 30px;
+    border: none;
+}
+.navbtn2 i{
+    
+    color: #ED1C24;
+    background: white;
+    padding: 8px;
+    border: solid white 1px;
+    border-radius: 30px;
+    border: none;
+}
+
+
+.div{
+    margin-top: 30px;
+
+    
+}
+.div hr{
+/* display: flex; */
+display: inline;
+}
+
+
+/* --------------- */
+/* Main */
+/* --------------- */
+/* 
+main{
+   
+
+} */
+
+.banner img{
+    width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+/* Wellcome section */
+
+.Wellcome{
+  
+    height: 90vh;
+    background: #000;
+    color: white;
+}
+.Wellcome h1{
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    margin-bottom: 7px;
+}
+.well_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;padding-top: 70px;
+    
+    
+}
+.Welcome_Img{
+display: flex;
+justify-content: center;
+
+}
+.Welcome_Img img{
+    background-color: white;
+    border-radius: 4px;
+    width:230px ;
+
+background-position: center;
+ margin: 20px;
+ padding: 20px 15px;
+}
+/* .p_img{
+
+} */
+.well_heading p {
+color: rgba(255, 255, 255, 0.445);
+}
+.Well_btn1, .well_btn2 , .well_btn3{
+    display: flex;
+    justify-content: center;
+}
+.Welcome_Img button{
+    color: white;
+    padding: 13px 38px ;
+    border: solid 1px rgba(255, 255, 255, 0.61);
+    border-radius: 30px;
+    background: #000;
+  display: block;
+ 
+}
+.well_span{
+  
+   font-family:cursive;
+
+    font-size: 44px;
+
+}
+
+
+/* /***************************/
+/* Restaurant Franchises Section */
+/* /***************************/
+
+.Frchis_section{
+ 
+    background: #0F0F0F;
+    color: white;
+   
+
+}
+.Frchis_heading{
+    text-align: center;
+padding: 60px 30px;
+}
+.Frchis_heading :first-child{
+    font: 190px;
+}
+#F_h1{
+    font-size: 50px;
+    font-family:cursive;
+
+}
+.F_h2{
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: 6px;
+
+}
+.Frchis_heading p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.Frchis_img{
+    position: absolute;
+    z-index: 1;
+    right: 40px;
+    height: 400px;
+
+
+mix-blend-mode: color-burn;
+}
+
+
+/* Frchis_banner */
+
+.Frchis_banner{
+display: flex;
+
+}
+.righttext{
+    padding: 20px 90px;
+
+}
+.righttext ,.lefttext{
+width: 50%;
+}
+
+.righttext h4{
+    font-weight: 200;
+    color:#ED1C24 ;
+    letter-spacing: 5px;
+   text-transform: uppercase;
+
+}
+.righttext h2{
+   font-weight: 400;
+   margin-bottom: 30px;
+}
+.righttext p{
+color: rgba(255, 255, 255, 0.438);
+font-size: 14px;
+margin-bottom: 10px;
+}
+.B_h{
+    font-size: 33px;
+    font-weight: 500;
+    font-family:cursive;
+}
+.lefttext img{
+    width: 500px;
+}
+.Frchis_btn{
+    color: white;
+    background: #0F0F0F;
+    padding: 5px 15px ;
+    border: solid rgba(255, 255, 255, 0.438) 1px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.Frchis_btn i{
+    color: #ED1C24;
+    background: white;
+    padding: 8px;
+    border: solid white 1px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 6px;
+}
+#Third_banner{
+    margin-top: 40px;
+}
+#Second_banner{
+    
+    margin-left: 80px; 
+}
+
+#Frchis_banner2{
+    margin-top: 50px;
+    
+}
+
+
+/* /***************************/
+/* Express Franchises Section */
+/* /***************************/
+.Express_Frchis{
+    background: #000;
+    margin-top: 35px;
+  padding-bottom: 30px;
+}
+.Express_h{
+text-align: center;
+padding: 40px 30px;
+}
+.Express_h h1{
+    font-family:cursive;
+letter-spacing: 5px;
+}
+.Express_h h2{
+font-size: 20px;
+letter-spacing: 5px;
+font-weight: 400;
+margin-top: 10px;
+
+}
+.Frchis_btn{
+    color: white;
+    background: #0F0F0F;
+    padding: 5px 15px ;
+    border: solid rgba(255, 255, 255, 0.438) 1px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.Frchis_btn i{
+    color: #ED1C24;
+    background: white;
+    padding: 8px;
+    border: solid white 1px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 6px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+}
+.card1{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+    margin: 30px 2px;
+    
+}
+.card1 .Expressimg1 img{
+    width: 310px;
+}
+.bottomtext{
+    text-align: center;
+}
+.bottomtext p{
+    font-weight: 200;
+    letter-spacing: 5px;
+    color: #ED1C24;font-size: 13px;
+   margin: 5px;
+}
+.bottomtext h4{
+    font-size: 21px;
+    font-weight: 300;
+margin-top: 3px;
+
+
+}
+.bottomtext span{
+    font-size: 26px;
+    font-family:cursive;
+}
+.bottomtext h5{
+    padding: 10px;
+
+    color: rgba(255, 255, 255, 0.479);
+}
+#Card1{
+    margin-left: 50px;
+}
+#Card{
+    margin: auto;
+}
+
+/* /***************************/
+/* Village Franchise Section */
+/* /***************************/
+
+.Village{
+    background: #0F0F0F;
+    color: white;
+    padding-bottom: 40px;
+}
+.Village h1{
+font-family: cursive;
+font-size: 40px;
+}
+.Village h3{
+    font-family: cursive;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    }
+.Village_h{
+    text-align: center;padding: 30px;
+}
+
+/* /***************************/
+/* Express Franchises (Opening Soon) Section */
+/* /***************************/
+.openingSoon{
+    background: #000;
+    color: black;
+}
+.opening_h{
+text-align: center;
+padding: 30px;
+color: white;
+}
+.opening_h h1{
+    margin: 5px;
+    font-family: cursive;
+    font-size: 50px;
+}
+.img1{
+    padding: 20px 40px;
+    background: white;
+    width: 350px;
+    border: solid black 2px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.863);
+    margin: 10px;
+}
+.img1 h4{
+    font-size: 10px;
+    color: #ED1C24;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.img1 h2{
+font-size: 18px;
+font-weight: 500;
+margin: 7px;
+}
+.openingSpan{
+    color: black;
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: 700;
+}
+.img1 p{
+    margin: 7px;
+}
+.OpeningImg{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+/* /***************************/
+/* Social Feed Section */
+/* /***************************/
+.SocialFeed{
+    background: #000;
+padding: 60px 1px;
+}
+.Social_h{
+    text-align: center;
+
+}
+.Social_h h1{
+    color: white;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 500;
+}
+.SocialImg{
+    display: flex;
+    justify-content: space-around;
+}
+.Simg img{
+    width: 230px;
+    height: 220px;
+    
+}
+
+/* /***************************/
+/* Footer Section */
+/* /***************************/
+
+
+/* Footer styling */
+.footer {
+    background-color: #0F0F0F;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+.footer h3{
+    font-weight: 400;
+    margin: 10px 0px ;
+}
+.footer p{
+    font-size: 13px !important;
+    color: rgba(255, 255, 255, 0.589);
+   
+}
+.footer img{
+width: 120px;
+}
+.footer-child {
+    width: 22%; /* Give each child a fixed width */
+    /* text-align: center; */
+}
+
+.footer-child h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-child p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.F_Icons {
+display: flex;
+
+gap: 10px;
+margin: 10px;
+}
+#Child_1{
+    margin-left: 50px;
+}
